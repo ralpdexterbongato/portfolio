@@ -1,0 +1,56 @@
+.latest-works-container
+{
+  padding:25px;
+  overflow-x: hidden;
+  position: relative;
+}
+@media (max-width:400px)
+{
+  .latest-works-container
+  {
+    padding:25px 10px;
+  }
+}
+.left-arrow i,.right-arrow i
+{
+  color: #09002D;
+}
+.left-arrow:hover,.right-arrow:hover
+{
+  background: rgba(100,100,100,0.3);
+}
+.left-arrow,.right-arrow
+{
+  border-style: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background: rgba(100,100,100,0.2);
+  outline: none;
+  cursor: pointer;
+}
+.left-arrow
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 20;
+}
+.right-arrow
+{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 20;
+}
+@media (max-width:950px)
+{
+  .left-arrow
+  {
+    position: fixed;
+  }
+  .right-arrow
+  {
+    position: fixed;
+  }
+}

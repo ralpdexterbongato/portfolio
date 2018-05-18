@@ -1,0 +1,11 @@
+<div class="latest-works-container">
+  <button class="left-arrow" type="button" (click)="PrevComponent()" name="button">
+    <i class="material-icons">arrow_left</i>
+  </button>
+  <button class="right-arrow" type="button" (click)="NextComponent()" name="button">
+    <i class="material-icons">arrow_right</i>
+  </button>
+  <app-first-project *ngIf="page == 3"></app-first-project>
+  <app-second-project *ngIf="page == 2"></app-second-project>
+  <app-third-project *ngIf="page == 1"></app-third-project>
+</div>
