@@ -183,7 +183,7 @@
   width: 100%;
 }
 .mobile-screen::-webkit-scrollbar {
-    width:5px;
+    width:0px;
 }
 
 .mobile-screen::-webkit-scrollbar-track {
@@ -201,6 +201,7 @@
   overflow-x: hidden;
   overflow-y: scroll;
   background: #2E5CC0;
+  border-radius: 5px;
 }
 .mobile-button
 {

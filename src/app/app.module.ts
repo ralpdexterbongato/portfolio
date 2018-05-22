@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes, CanActivate } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
@@ -83,6 +84,7 @@ const appRoutes: Routes = [
   RouterModule.forRoot(appRoutes,{onSameUrlNavigation:'reload'}),
   FormsModule,
   HttpClientModule,
+  BrowserAnimationsModule,
   LoadingModule.forRoot({
         animationType: ANIMATION_TYPES.threeBounce,
         backdropBackgroundColour: 'rgba(0,0,0,0.1)',
