@@ -43,7 +43,7 @@
   margin-bottom: 0px;
   font-size: 12px;
   font-family: 'Comfortaa',sans-serif;
-  color: #fff;
+  color: #454545;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   padding-top: 5px;
@@ -54,7 +54,7 @@
 {
   height: 100%;
   width: 100%;
-  background: #fff;
+
   display: flex;
 }
 .skill-box:hover .laravellogo  path
@@ -101,9 +101,9 @@
 {
   fill:#F05134;
 }
-.skill-box:hover .atomlogo  path
+.skill-box:hover .wplogo  path
 {
-  fill:#3AB57E;
+  fill:#00769D;
 }
 .skill-box path
 {
@@ -121,8 +121,9 @@
   border-radius: 2px;
   width:200px;
   height: 190px;
-  background: #454545;
+  background: #fff;
   display: flex;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 40px;

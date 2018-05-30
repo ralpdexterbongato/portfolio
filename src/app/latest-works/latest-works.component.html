@@ -1,11 +1,122 @@
 <div class="latest-works-container">
-  <button class="left-arrow" type="button" *ngIf="page !=1" (click)="PrevComponent()" name="button">
-    <i class="material-icons">arrow_back</i>
-  </button>
-  <button class="right-arrow" *ngIf="page !=3" type="button" (click)="NextComponent()" name="button">
-    <i class="material-icons">arrow_forward</i>
-  </button>
-  <app-first-project *ngIf="page == 3" ></app-first-project>
-  <app-second-project *ngIf="page == 2"></app-second-project>
-  <app-third-project *ngIf="page == 1"></app-third-project>
+  <h2 class="big-top-title">PROJECTS</h2>
+  <div class="main-works-container">
+    <div class="project-box-container">
+      <div class="project-box">
+        <div class="project-img" style="background-image: url('./assets/images/wordpress.jpg')">
+          <div class="project-hover-data">
+            <h3>C.Y.M. Music Vlog</h3>
+            <ul>
+              <li>Wordpress (PHP)</li>
+              <li>MySql</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-data">
+          <a href="http://chillyourmind.rf.gd/cym/" target="_blank">
+            <i class="material-icons">attachment</i>
+            <p>Visit</p>
+          </a>
+        </div>
+      </div>
+      <h2>Music Vlog</h2>
+    </div>
+    <div class="project-box-container">
+      <div class="project-box">
+        <div class="project-img" style="background-image: url('./assets/images/project1.PNG')">
+          <div class="project-hover-data">
+            <h3>Warehouse Inventory Control</h3>
+            <ul>
+              <li>Vue.js</li>
+              <li>PHP(laravel)</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Microsoft SQL</li>
+              <li>Socket.io</li>
+              <li>Chart.js</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-data">
+          <a href="https://warehouseinventorycontrol.herokuapp.com/" target="_blank">
+            <i class="material-icons">attachment</i>
+            <p>Visit</p>
+          </a>
+        </div>
+      </div>
+      <h2>Inventory Control </h2>
+    </div>
+    <div class="project-box-container">
+      <div class="project-box">
+        <div class="project-img" style="background-image: url('./assets/images/project3.PNG')">
+          <div class="project-hover-data">
+            <h3>Cryptography</h3>
+            <ul>
+              <li>Angular.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-data">
+          <a href="https://ralpdexterbongato.github.io/finalproject/" target="_blank">
+            <i class="material-icons">attachment</i>
+            <p>Visit</p>
+          </a>
+        </div>
+      </div>
+      <h2>Atbash & Cipher encrypt/decrypt </h2>
+    </div>
+    <div class="project-box-container">
+      <div class="project-box">
+        <div class="project-img" style="background-image: url('./assets/images/portf.PNG')">
+          <div class="project-hover-data">
+            <h3>Portfolio site</h3>
+            <ul>
+              <li>Angular.js</li>
+              <li>Laravel REST api</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Postgre SQL</li>
+              <li>Json Web Tokens</li>
+              <li>Google Analytics</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-data">
+          <a href="https://ralpdexterbongato.github.io/portfolio/" target="_blank">
+            <i class="material-icons">attachment</i>
+            <p>Visit</p>
+          </a>
+        </div>
+      </div>
+      <h2>Portfolio</h2>
+    </div>
+    <div class="project-box-container">
+      <div class="project-box">
+        <div class="project-img" style="background-image: url('./assets/images/facebookhome.png')">
+          <div class="project-hover-data">
+            <h3>Facebook clone</h3>
+            <ul>
+              <li>Angular.js</li>
+              <li>Laravel REST api</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Postgre SQL</li>
+              <li>Json Web Tokens</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-data">
+          <a href="https://ralpdexterbongato.github.io/facebook/" target="_blank">
+            <i class="material-icons">attachment</i>
+            <p>Visit</p>
+          </a>
+        </div>
+      </div>
+      <h2>Facebook clone </h2>
+    </div>
+  </div>
 </div>

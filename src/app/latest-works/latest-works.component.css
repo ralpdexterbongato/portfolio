@@ -11,46 +11,106 @@
     padding:25px 10px;
   }
 }
-.left-arrow i,.right-arrow i
+
+.project-box img
 {
-  color: #09002D;
+  width: 100%;
 }
-.left-arrow:hover,.right-arrow:hover
+.project-img
 {
-  background: rgba(100,100,100,0.3);
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #f4f4f4;
+  min-height: 160px;
+  background-size: cover;
+  background-position: center;
 }
-.left-arrow,.right-arrow
+.box-data i,.box-data p
 {
-  border-style: none;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  background: rgba(100,100,100,0.2);
-  outline: none;
-  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  color: #bbb;
 }
-.left-arrow
+.box-data a:hover i
+{
+  color: #4B21FF!important;
+}
+.box-data a
+{
+  text-decoration: none;
+}
+.box-data
+{
+  margin-top: 4px;
+}
+.box-data i
+{
+  font-size:20px;
+}
+.box-data p
+{
+  font-size: 12px;
+}
+.project-box
+{
+  border-radius: 2px;
+  padding:10px;
+  height: 180px;
+  width: 200px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+  background: #fff;
+}
+.project-hover-data h3
+{
+  font-weight: 600;
+  font-size: 15px;
+}
+.project-hover-data ul
+{
+  margin-top:10px;
+}
+.project-hover-data ul li
+{
+  font-size: 11px;
+  color: rgba(0,0,0,.6);
+  margin-bottom: 3px;
+}
+.project-hover-data
 {
   position: absolute;
+  top: -800px;
   left: 0;
-  top: 50%;
-  z-index: 20;
-}
-.right-arrow
-{
-  position: absolute;
   right: 0;
-  top: 50%;
-  z-index: 20;
+  height: 100%;
+  padding:10px;
+  color: #0F1A1E;
+  background: rgba(255, 255, 255,0.9);
+  transition: top .3s;
 }
-@media (max-width:950px)
+.big-top-title
 {
-  .left-arrow
-  {
-    position: fixed;
-  }
-  .right-arrow
-  {
-    position: fixed;
-  }
+  font-size: 25px;
+  font-family: 'Yantramanav',sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.project-box-container h2
+{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.project-box-container
+{
+  margin:20px;
+}
+.main-works-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-img:hover .project-hover-data
+{
+  top: 0;
 }

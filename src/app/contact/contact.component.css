@@ -155,19 +155,19 @@
 }
 .contact-box:hover
 {
-  filter: drop-shadow(5px 5px 8px rgba(100, 100, 100, 0.2));
+  box-shadow: 3px 3px 12px rgba(100, 100, 100, 0.2);
 }
 .contact-box:first-child
 {
-    filter: drop-shadow(5px 5px 8px rgba(100, 100, 100, 0.2));
+  box-shadow: 3px 3px 12px rgba(100, 100, 100, 0.2);
 }
 .contact-box
 {
-  transition: filter .5s;
+  transition: box-shadow .3s;
   margin-bottom: 20px;
   color: #454545;
   padding: 25px;
-  background: #fff;
+  background: #f4f4f4;
   border-radius: 2px;
 }
 .contact-box h3
