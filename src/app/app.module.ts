@@ -24,9 +24,6 @@ import { GuestGuard } from './guards/guest.guard';
 
 import { MyHttpInterceptor } from './my-http-interceptor';
 import { LoadingModule, ANIMATION_TYPES  } from 'ngx-loading';
-import { SecondProjectComponent } from './second-project/second-project.component';
-import { FirstProjectComponent } from './first-project/first-project.component';
-import { ThirdProjectComponent } from './third-project/third-project.component';
 const appRoutes: Routes = [
   {
     path: 'admin-panel',
@@ -75,9 +72,6 @@ const appRoutes: Routes = [
     SkillsComponent,
     AdminLoginComponent,
     AdminpanelComponent,
-    SecondProjectComponent,
-    FirstProjectComponent,
-    ThirdProjectComponent,
   ],
   imports: [
   BrowserModule,
