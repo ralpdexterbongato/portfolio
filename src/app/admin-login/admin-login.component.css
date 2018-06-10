@@ -59,6 +59,7 @@
 .input-login-wrap
 {
   position: relative;
+  background-color: transparent;
   margin: 25px 5px;
   font-family: 'Roboto',sans-serif;
   height: 20px;
@@ -77,6 +78,7 @@
 .input-login-wrap input
 {
   color: #343434;
+  background-color: transparent;
   border-style: none;
   width: 100%;
   padding:5px;

@@ -3,6 +3,8 @@
   padding:25px;
   overflow-x: hidden;
   position: relative;
+  min-height: 100vh;
+  overflow: hidden;
 }
 @media (max-width:400px)
 {
