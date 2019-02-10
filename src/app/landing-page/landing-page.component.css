@@ -73,7 +73,7 @@
   background: #4843D2;
   position: absolute;
   top: 37vh;
-  right: -4vw;
+  right: -3vw;
 }
 @media (max-width:1106px)
 {
@@ -85,7 +85,7 @@
 }
 .landing-page-content
 {
-  padding-top: 28vh;
+  padding-top: 15vh;
   padding-left:20vw;
 }
 @media (max-width:1106px)
