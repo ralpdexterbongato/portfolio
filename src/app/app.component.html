@@ -15,7 +15,7 @@
         <ul class="info-list">
           <li>
             <label>Email</label>
-            <p (click)="adminlogin()">rdc2898@gmail.com</p>
+            <p (click)="adminlogin()">ralpdexterbongato@gmail.com</p>
           </li>
           <li>
             <label>Phone</label>
@@ -26,7 +26,7 @@
             <p>
               <a href="https://www.facebook.com/rdb2898" target="_blank"><i class="material-icons"><img src="./assets/images/facebook.svg" alt="icon"></i></a>
               <a href="https://github.com/ralpdexterbongato" target="_blank"><i class="material-icons" ><img src="./assets/images/github.svg"  alt="icon"></i></a>
-              <a href="https://twitter.com/rdb2898" target="_blank"><i class="material-icons"><img src="./assets/images/twitter.svg"  alt="icon"></i></a>
+              <a href="https://www.linkedin.com/in/ralp-dexter-bongato-671257151/" target="_blank"><i class="material-icons"><img src="./assets/images/linkedin.svg"  alt="icon"></i></a>
             </p>
           </li>
         </ul>
@@ -34,6 +34,18 @@
     </div>
   </div>
   <div class="content-container">
+    <div class="lg-navs-container">
+      <div class="lg-screen-navs-left">
+
+      </div>
+      <ul class="lg-screen-navs-right">
+        <li routerLink="/about">About</li>
+        <li routerLink="/websites">Websites</li>
+        <li routerLink="/projects">Projects</li>
+        <li routerLink="/skills">Skills</li>
+        <li routerLink="/contact">Contact</li>
+      </ul>
+    </div>
     <div>
       <router-outlet></router-outlet>
     </div>
@@ -52,6 +64,7 @@
   </div>
   <ul>
     <li (click)="toggleDrawer()" routerLink="/about" [routerLinkActive]="'is-active'"><i class="material-icons">info_outline</i> About</li>
+    <li (click)="toggleDrawer()" routerLink="/websites" [routerLinkActive]="'is-active'"><i class="material-icons">web</i> Websites</li>
     <li (click)="toggleDrawer()" routerLink="/projects" [routerLinkActive]="'is-active'"><i class="material-icons">developer_mode</i> Projects</li>
     <li (click)="toggleDrawer()" routerLink="/skills" [routerLinkActive]="'is-active'"><i class="material-icons">code</i> Skills</li>
     <li (click)="toggleDrawer()" routerLink="/contact" [routerLinkActive]="'is-active'"><i class="material-icons">phone</i> Contact</li>

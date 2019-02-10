@@ -24,6 +24,7 @@ import { GuestGuard } from './guards/guest.guard';
 
 import { MyHttpInterceptor } from './my-http-interceptor';
 import { LoadingModule, ANIMATION_TYPES  } from 'ngx-loading';
+import { WebsitesComponent } from './websites/websites.component';
 const appRoutes: Routes = [
   {
     path: 'admin-panel',
@@ -57,6 +58,11 @@ const appRoutes: Routes = [
     component: LandingPageComponent,
     data: { title: 'Home' }
   },
+  {
+    path: 'websites',
+    component: WebsitesComponent,
+    data: { title: 'Websites' }
+  },
   { path: '',
     redirectTo: 'about',
     pathMatch: 'full'
@@ -72,6 +78,7 @@ const appRoutes: Routes = [
     SkillsComponent,
     AdminLoginComponent,
     AdminpanelComponent,
+    WebsitesComponent,
   ],
   imports: [
   BrowserModule,

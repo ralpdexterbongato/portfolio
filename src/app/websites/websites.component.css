@@ -1,0 +1,85 @@
+.websites-container
+{
+  min-height: 100vh;
+  padding:25px;
+}
+@media (max-width:400px)
+{
+  .websites-container
+  {
+    padding:25px 10px;
+  }
+}
+.top-titles-container
+{
+  padding:0px 22px;
+}
+.big-top-title
+{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family:'Yantramanav',sans-serif;
+}
+.top-title-desc
+{
+  color: #a0a0a0  ;
+  margin-bottom: 25px;
+}
+@media (max-width: 500px)
+{
+  .big-top-title
+  {
+    font-size: 20px;
+  }
+  .top-title-desc
+  {
+    font-size: 13px;
+  }
+}
+.website-demos-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.website-box-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  width: 260px;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.website-box-container:hover img
+{
+  transform: scale(1.1);
+}
+.web-box-img-container
+{
+  overflow: hidden;
+}
+.website-box-container img
+{
+  transition: transform .5s;
+  width: 100%;
+}
+.website-box-info
+{
+  background: #fff;
+  padding:20px 15px;
+}
+.website-box-info h1
+{
+  font-size: 19px;
+  margin-bottom:10px;
+}
+.website-box-info h3
+{
+  font-size: 12px;
+  color: #b0b0b0;
+  letter-spacing: 1px;
+}
