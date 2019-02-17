@@ -1,0 +1,186 @@
+.pricing-main-container
+{
+  padding: 25px;
+  min-height: 100vh;
+}
+.page-big-title
+{
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-family:'Yantramanav',sans-serif;
+  margin-left: 22px;
+}
+@media (max-width: 500px)
+{
+  .page-big-title
+  {
+    font-size: 20px;
+  }
+}
+
+/* pricing box css */
+.pricing-box-container
+{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.pricing-box
+{
+  color: #20292F;
+  background:#fff;
+  min-width: 380px;
+  text-align: center;
+  padding:40px 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 20px 150px rgba(51,73,90,.2);
+  margin: 20px;
+  position: relative;
+}
+@media (max-width:1600px)
+{
+   .pricing-box
+   {
+     min-width: 200px;
+     padding:30px 20px 20px 20px;
+   }
+}
+.side-tags
+{
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background: #26C15F;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  -moz-box-shadow: 0 5px 20px rgba(51,73,90,.2);
+  box-shadow: 0 5px 20px rgba(51,73,90,.2);
+  -webkit-box-shadow: 0 5px 20px rgba(51,73,90,.2);
+}
+.side-tags h4
+{
+  margin:0 auto;
+  font-size: 15px;
+  margin-top: 25px;
+}
+.pricing-box h2
+{
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.price-desc-container
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.price-desc-container h3
+{
+  font-size: 50px;
+}
+.price-desc-container p
+{
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+.features
+{
+  cursor:default;
+}
+.features li
+{
+  margin-bottom: 24px;
+}
+@media (max-width:1600px)
+{
+  .side-tags
+  {
+    height: 60px;
+    width: 60px;
+  }
+  .side-tags h4
+  {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .pricing-box h2
+  {
+    font-size: 14px;
+  }
+  .price-desc-container h3
+  {
+    font-size: 38px;
+  }
+  .price-desc-container p
+  {
+    margin-top: 10px;
+  }
+  .features li
+  {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+
+.pricing-box button
+{
+  width: 100%;
+  padding:20px;
+  text-align: center;
+  border-style: none;
+  border-radius: 30px;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing:.5px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width:1600px)
+{
+  .pricing-box button
+  {
+    font-size: 15px;
+    padding:14px;
+    border-radius:50px;
+  }
+}
+.sky-button
+{
+  background: #2cc2e6;
+}
+.pink-button
+{
+  background: #F92C8B;
+}
+.purple-button
+{
+  background:#4843D2;
+}
+.sky-text
+{
+  color: #2cc2e6;
+}
+.pink-text
+{
+  color: #F92C8B;
+}
+.purple-text
+{
+  color:#4843D2;
+}
+.not-included-text
+{
+  text-decoration: line-through;
+  color: #b0b0b0;
+}
+.bold-text
+{
+  font-weight: 600;
+}

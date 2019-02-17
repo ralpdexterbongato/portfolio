@@ -39,11 +39,12 @@
 
       </div>
       <ul class="lg-screen-navs-right">
-        <li routerLink="/about">About</li>
-        <li routerLink="/websites">Websites</li>
-        <li routerLink="/projects">Projects</li>
-        <li routerLink="/skills">Skills</li>
-        <li routerLink="/contact">Contact</li>
+        <li routerLink="/about" [routerLinkActive]="'is-active'">About</li>
+        <li routerLink="/websites" [routerLinkActive]="'is-active'">Websites</li>
+        <li routerLink="/pricing" [routerLinkActive]="'is-active'">Pricing</li>
+        <li routerLink="/projects" [routerLinkActive]="'is-active'">Projects</li>
+        <li routerLink="/skills" [routerLinkActive]="'is-active'">Skills</li>
+        <li routerLink="/contact" [routerLinkActive]="'is-active'">Contact</li>
       </ul>
     </div>
     <div>
@@ -65,6 +66,7 @@
   <ul>
     <li (click)="toggleDrawer()" routerLink="/about" [routerLinkActive]="'is-active'"><i class="material-icons">info_outline</i> About</li>
     <li (click)="toggleDrawer()" routerLink="/websites" [routerLinkActive]="'is-active'"><i class="material-icons">web</i> Websites</li>
+    <li (click)="toggleDrawer()" routerLink="/pricing" [routerLinkActive]="'is-active'"><i class="material-icons">attach_money</i> Pricing</li>
     <li (click)="toggleDrawer()" routerLink="/projects" [routerLinkActive]="'is-active'"><i class="material-icons">developer_mode</i> Projects</li>
     <li (click)="toggleDrawer()" routerLink="/skills" [routerLinkActive]="'is-active'"><i class="material-icons">code</i> Skills</li>
     <li (click)="toggleDrawer()" routerLink="/contact" [routerLinkActive]="'is-active'"><i class="material-icons">phone</i> Contact</li>
