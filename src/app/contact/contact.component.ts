@@ -61,6 +61,9 @@ export class ContactComponent implements OnInit {
         this.loading = false;
       }
     )
+  }else
+    {
+      vm.loading=false;
     }
   }
 
