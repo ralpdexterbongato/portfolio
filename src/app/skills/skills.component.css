@@ -46,6 +46,7 @@
   padding-top: 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
 }
 .skill-screen
 {
@@ -54,59 +55,12 @@
 
   display: flex;
 }
-.skill-box .laravellogo  path
-{
-  fill:#F05340;
-}
-.skill-box .angularlogo  path
-{
-  fill:#E13137;
-}
-.skill-box .phplogo  path
-{
-  fill:#777BB3;
-}
-.skill-box .sqllogo  path
-{
-  fill:#E4322B;
-}
-.skill-box .htmllogo  path
-{
-  fill:#E44D26;
-}
-.skill-box .csslogo  path
-{
-  fill:#2CA9E1;
-}
-.skill-box .jslogo  path
-{
-  fill:#F0DB4F;
-}
-.skill-box .jquerylogo  path
-{
-  fill:#1B75BB;
-}
-.skill-box .vuelogo  path
-{
-  fill:#41B883;
-}
-.skill-box .mysqllogo  path
-{
-  fill:#F17B2D;
-}
-.skill-box .gitlogo  path
-{
-  fill:#F05134;
-}
-.skill-box .wplogo  path
-{
-  fill:#00769D;
-}
 .skill-box path
 {
   transition: fill .3s;
+  fill:#454545;
 }
-.skill-box svg
+.skill-box img
 {
   width: 60px;
   margin: auto;
@@ -131,7 +85,7 @@
     width: 300px;
     height: 285px;
   }
-  .skill-box svg
+  .skill-box img
   {
     width: 90px;
   }
@@ -145,9 +99,8 @@
   .skill-title
   {
     font-size: 12px;
-    text-align: center;
   }
-  .skill-box svg
+  .skill-box img
   {
     width: 50px;
   }
