@@ -1,0 +1,25 @@
+<div class="certificates-btn" (click)="modalToggle()">
+Certificates
+</div>
+<div class="certificates-box" [ngClass]="{'active':modalIsActive}">
+  <div class="certificate-title-box">
+    <button type="button" name="button" (click)="modalToggle()"> <i class="material-icons">close</i> </button>
+    <h1>C E R T I F I C A T E S</h1>
+    <h2>INFO</h2>
+    <ul>
+      <li>{{firstline}}</li>
+      <li>{{secondline}}</li>
+      <li>{{thirdline}}</li>
+      <li>{{forthline}}</li>
+      <li>{{fifthline}}</li>
+    </ul>
+  <div class="certificate-list-box">
+    <ul>
+      <li>
+        <img src="./assets/images/ralpdextercertificates/certificate {{currentView}}.png" alt="">
+        <button class="previous-btn" type="button" name="button" (click)="prevClick()"><i class="material-icons">arrow_back_ios</i></button>
+        <button class="next-btn" type="button" name="button" (click)="nextClick()"><i class="material-icons">arrow_forward_ios</i> </button>
+      </li>
+    </ul>
+  </div>
+</div>

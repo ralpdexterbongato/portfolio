@@ -1,0 +1,118 @@
+/* certificates css */
+.certificates-btn
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:rgba(104, 111, 253, 1);
+  color: #fff;
+  padding:10px;
+  border-radius: 2px;
+  -webkit-box-shadow:0 0 30px rgba(7,51,84,.17);
+  box-shadow: 0 0 30px rgba(7,51,84,.17);
+  font-size: 14px;
+  cursor: pointer;
+}
+.certificates-box.active
+{
+  display: block;
+}
+.certificates-box
+{
+ bottom: 0;
+ right: 20px;
+ background: #f5f7f8;
+ height: 460px;
+ width: 310px;
+ -webkit-box-shadow:0 0 30px rgba(7,51,84,.17);
+ box-shadow: 0 0 30px rgba(7,51,84,.17);
+ position: fixed;
+ display: none;
+ z-index: 31;
+}
+.certificate-title-box
+{
+ background-color:#686FFD;
+ padding:65px 25px 10px 25px;
+ position: relative;
+ color: #fff;
+}
+.certificate-title-box h2
+{
+ font-size: 20px;
+ margin-bottom:10px;
+}
+.certificate-title-box h1
+{
+ text-align: center;
+ margin-bottom: 55px;
+ font-size: 17px;
+}
+.certificate-title-box ul
+{
+ font-size: 13px;
+ margin-bottom: 60px;
+ line-height: 18px;
+}
+.certificate-title-box > button
+{
+ position: absolute;
+ cursor: pointer;
+ right: 10px;
+ top: 25px;
+ background: transparent;
+ border-style: none;
+ color: #fff;
+ outline:none;
+}
+.certificate-list-box
+{
+ position: relative;
+}
+.certificate-list-box ul
+{
+ z-index: 20;
+ position: absolute;
+ top: -70px;
+ width: 100%;
+}
+.certificate-list-box li
+{
+ width: 230px;
+ margin: 20px auto;
+ position: relative;
+}
+.certificate-list-box li img
+{
+ width: 100%;
+ -webkit-box-shadow:0 0 30px rgba(7,51,84,.10);
+ box-shadow: 0 0 30px rgba(7,51,84,.10);
+}
+.previous-btn
+{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: -40px;
+  background: transparent;
+  border-style: none;
+  padding:10px;
+  width:90px;
+  outline: none;
+}
+.next-btn
+{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -40px;
+  background: transparent;
+  border-style: none;
+  padding:10px;
+  width: 90px;
+  outline: none;
+}
+.previous-btn:hover ,.next-btn:hover
+{
+  background: rgba(255, 255, 255, 0.30);
+}

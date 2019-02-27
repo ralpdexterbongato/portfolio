@@ -26,6 +26,7 @@ import { MyHttpInterceptor } from './my-http-interceptor';
 import { LoadingModule, ANIMATION_TYPES  } from 'ngx-loading';
 import { WebsitesComponent } from './websites/websites.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { CertificateComponent } from './certificate/certificate.component';
 const appRoutes: Routes = [
   {
     path: 'admin-panel',
@@ -86,6 +87,7 @@ const appRoutes: Routes = [
     AdminpanelComponent,
     WebsitesComponent,
     PricingComponent,
+    CertificateComponent,
   ],
   imports: [
   BrowserModule,

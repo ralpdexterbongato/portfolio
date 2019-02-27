@@ -211,30 +211,18 @@
 {
   cursor: pointer;
   outline-style: none;
-  padding:30px 20px;
-  font-size: 17px;
-  font-weight: 600;
+  padding:15px;
+  font-size: 14px;
   color: #5A5A5A;
 }
 .drawer-nav ul li i
 {
   vertical-align:middle;
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 24px;
   margin-right: 25px;
 }
-@media (max-width:580px)
-{
-  .drawer-nav ul li
-  {
-    padding:15px;
-    font-size: 14px;
-  }
-  .drawer-nav ul li i
-  {
-    font-size: 24px;
-  }
-}
+
 #centerpath
 {
   fill:none;
